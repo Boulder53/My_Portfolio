@@ -45,6 +45,27 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+                .p {
+            width: 225px;
+            height: 225px;
+            border-radius: 80px;
+            margin: 0 auto 20px auto;
+            transition-delay: 0.3s;
+            transition-property: all;
+            transition-duration: 0.5s;
+            filter: blur(0.9px);
+            box-shadow: -5px -5px 15px 2px #9C27B0, 5px 5px 15px 2px #03A9F4;
+        }
+
+        .p:hover {
+           width: 250px;
+           height: 250px;
+           border-radius: 100px;
+           filter: blur(0px);
+           box-shadow: -7px -7px 20px 5px #c807e9, 7px 7px 20px 5px #00BCD4;
+        }
+
     </style>
 </head>
 <body class="bg-[#020617] text-slate-100 overflow-x-hidden">
@@ -87,6 +108,7 @@
 
         <div class="max-w-7xl mx-auto px-6 relative z-10 w-full grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-20 items-center">
             <div class="lg:col-span-12 text-center">
+                <img class="p" src="p.jpeg" alt="">
                 <span class="inline-block text-indigo-400 font-bold text-[10px] md:text-xs tracking-[0.2em] md:tracking-[0.4em] uppercase mb-6 md:mb-8 border border-indigo-500/20 bg-indigo-500/5 px-4 md:px-6 py-2 rounded-full">Creative Frontend Developer</span>
                 <h1 class="text-5xl md:text-7xl lg:text-9xl font-black leading-tight mb-8 md:mb-10 text-white">
                     محمد <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-emerald-400">أسامة</span>
